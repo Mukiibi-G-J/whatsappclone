@@ -30,7 +30,7 @@ class MainWidget extends StatelessWidget {
             onPressed: () {},
           ),
         ],
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.black,
       ),
       body: Center(
         child: ListView(
@@ -50,7 +50,7 @@ class MainWidget extends StatelessWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.grey,
         onPressed: () {},
         child: Icon(Icons.add),
       ),
